@@ -20,13 +20,27 @@ The HUMMBL Unified Tier Framework provides a comprehensive system for:
 
 **[View Complete Framework →](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md)**
 
-### 🎯 Key Sections
+### 🎯 Core Framework
 
-- **[Problem Complexity Tiers](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#1-problem-complexity-tiers)** - Tier 1 (Simple) through Tier 5 (Super-Wicked)
-- **[Learning Progression](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#2-learning-progression-tiers)** - Tier 0 (Awareness) through Tier 4 (Master)
-- **[Base-N Architecture](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#3-base-n-architecture-mapping)** - Base6 through BASE120
-- **[Wickedness Scoring](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#4-wickedness-scoring-methodology)** - 5-question assessment tool
-- **[Practical Application](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#7-practical-application-guide)** - How to use the framework
+- **[Getting Started](getting-started.md)** - Quick start guide (5 minutes)
+- **[Problem Complexity Tiers](core/problem-complexity-tiers.md)** - Tier 1 (Simple) through Tier 5 (Super-Wicked)
+- **[Learning Progression](core/learning-progression.md)** - Tier 0 (Awareness) through Tier 4 (Master)
+- **[Base-N Architecture](core/base-n-architecture.md)** - Base6 through BASE120
+- **[Wickedness Scoring](core/wickedness-scoring.md)** - 5-question assessment tool
+
+### 📚 Application Guides
+
+- **[Practical Guide](guides/practical-guide.md)** - Real-world application strategies
+- **[Practitioners Guide](guides/practitioners.md)** - For working professionals
+- **[Learners Guide](guides/learners.md)** - For students & self-learners
+- **[Researchers Guide](guides/researchers.md)** - For academic researchers
+
+### 📖 Reference
+
+- **[Validation Evidence](reference/validation-evidence.md)** - BASE120 validation (9.1/10)
+- **[Attribution](reference/attribution.md)** - Credits & intellectual property
+- **[Glossary](reference/glossary.md)** - Key term definitions
+- **[FAQ](reference/faq.md)** - Frequently asked questions
 
 ---
 
