@@ -18,15 +18,15 @@ The HUMMBL Unified Tier Framework provides a comprehensive system for:
 
 ### 📖 Main Documentation
 
-**[View Complete Framework →](../HUMMBL_Unified_Tier_Framework_v1.0.md)**
+**[View Complete Framework →](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md)**
 
 ### 🎯 Key Sections
 
-- **[Problem Complexity Tiers](../HUMMBL_Unified_Tier_Framework_v1.0.md#1-problem-complexity-tiers)** - Tier 1 (Simple) through Tier 5 (Super-Wicked)
-- **[Learning Progression](../HUMMBL_Unified_Tier_Framework_v1.0.md#2-learning-progression-tiers)** - Tier 0 (Awareness) through Tier 4 (Master)
-- **[Base-N Architecture](../HUMMBL_Unified_Tier_Framework_v1.0.md#3-base-n-architecture-mapping)** - Base6 through BASE120
-- **[Wickedness Scoring](../HUMMBL_Unified_Tier_Framework_v1.0.md#4-wickedness-scoring-methodology)** - 5-question assessment tool
-- **[Practical Application](../HUMMBL_Unified_Tier_Framework_v1.0.md#7-practical-application-guide)** - How to use the framework
+- **[Problem Complexity Tiers](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#1-problem-complexity-tiers)** - Tier 1 (Simple) through Tier 5 (Super-Wicked)
+- **[Learning Progression](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#2-learning-progression-tiers)** - Tier 0 (Awareness) through Tier 4 (Master)
+- **[Base-N Architecture](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#3-base-n-architecture-mapping)** - Base6 through BASE120
+- **[Wickedness Scoring](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#4-wickedness-scoring-methodology)** - 5-question assessment tool
+- **[Practical Application](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#7-practical-application-guide)** - How to use the framework
 
 ---
 
@@ -67,22 +67,22 @@ BASE120 (120 models) → Complete Framework
 
 ### For Practitioners
 
-1. **Assess your problem** using the [5-question wickedness scoring](../HUMMBL_Unified_Tier_Framework_v1.0.md#41-5-question-assessment)
+1. **Assess your problem** using the [5-question wickedness scoring](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#41-5-question-assessment)
 2. **Determine tier** (0-30 points → Tier 1-5)
 3. **Select Base-N level** matching your learning tier
-4. **Apply systematically** using [implementation protocols](../HUMMBL_Unified_Tier_Framework_v1.0.md#8-implementation-protocols)
+4. **Apply systematically** using [implementation protocols](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#8-implementation-protocols)
 
 ### For Learners
 
 1. Start with **Base6** foundational models
 2. Progress through **Base12** and **Base24**
-3. Follow the [learning pathway](../HUMMBL_Unified_Tier_Framework_v1.0.md#73-for-learners)
+3. Follow the [learning pathway](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#73-for-learners)
 4. Practice with real problems
 
 ### For Researchers
 
-1. Review [validation evidence](../HUMMBL_Unified_Tier_Framework_v1.0.md#5-validation-evidence)
-2. Explore [research applications](../HUMMBL_Unified_Tier_Framework_v1.0.md#72-for-researchers)
+1. Review [validation evidence](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#5-validation-evidence)
+2. Explore [research applications](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#72-for-researchers)
 3. Consider collaboration opportunities
 
 ---
@@ -98,7 +98,7 @@ Quantitative classification system based on:
 - Learning dynamics
 - Time pressure
 
-**[Learn More →](../HUMMBL_Unified_Tier_Framework_v1.0.md#1-problem-complexity-tiers)**
+**[Learn More →](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#1-problem-complexity-tiers)**
 
 ### 📚 Learning Progression Tiers
 
@@ -109,7 +109,7 @@ Five-stage development path:
 - **Tier 3:** Architect (Advanced)
 - **Tier 4:** Creator (Master)
 
-**[Learn More →](../HUMMBL_Unified_Tier_Framework_v1.0.md#2-learning-progression-tiers)**
+**[Learn More →](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#2-learning-progression-tiers)**
 
 ### 🔢 Base-N Architecture
 
@@ -119,7 +119,7 @@ Structured model selection framework:
 - Domain customization
 - Investment optimization
 
-**[Learn More →](../HUMMBL_Unified_Tier_Framework_v1.0.md#3-base-n-architecture-mapping)**
+**[Learn More →](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#3-base-n-architecture-mapping)**
 
 ### 📊 Wickedness Scoring
 
@@ -129,7 +129,7 @@ Quantitative assessment methodology:
 - Worked examples included
 - Decision trees provided
 
-**[Learn More →](../HUMMBL_Unified_Tier_Framework_v1.0.md#4-wickedness-scoring-methodology)**
+**[Learn More →](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#4-wickedness-scoring-methodology)**
 
 ---
 
@@ -142,7 +142,7 @@ Quantitative assessment methodology:
 - **Scope:** 120 models across 6 transformations
 - **GitLab:** [View Project](https://gitlab.com/hummbl-dev-group/hummbl-dev-project)
 
-**[View Complete Evidence →](../HUMMBL_Unified_Tier_Framework_v1.0.md#5-validation-evidence)**
+**[View Complete Evidence →](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#5-validation-evidence)**
 
 ---
 
@@ -163,7 +163,7 @@ Quantitative assessment methodology:
 
 Bowlby, R. (2025). *HUMMBL Unified Tier Framework v1.0: Integrating Problem Complexity, Learning Progression, and Base-N Architecture*. HUMMBL, LLC.
 
-**[View Full Citation Guide →](../README.md#-citation)**
+**[View Full Citation Guide →](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/README.md#-citation)**
 
 ---
 
@@ -184,23 +184,23 @@ Bowlby, R. (2025). *HUMMBL Unified Tier Framework v1.0: Integrating Problem Comp
 - Base-N architecture
 - BASE120 validation
 
-**[View Complete Attribution →](../HUMMBL_Unified_Tier_Framework_v1.0.md#6-attribution--intellectual-property)**
+**[View Complete Attribution →](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/HUMMBL_Unified_Tier_Framework_v1.0.md#6-attribution--intellectual-property)**
 
 ---
 
 ## Resources
 
 ### Documentation
-- **[README](../README.md)** - Project overview
-- **[CHANGELOG](../CHANGELOG.md)** - Version history
-- **[CONTRIBUTING](../CONTRIBUTING.md)** - How to contribute
-- **[LICENSE](../LICENSE.md)** - License terms
+- **[README](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/README.md)** - Project overview
+- **[CHANGELOG](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/CHANGELOG.md)** - Version history
+- **[CONTRIBUTING](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/CONTRIBUTING.md)** - How to contribute
+- **[LICENSE](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/LICENSE.md)** - License terms
 
 ### Community
-- **[Code of Conduct](../CODE_OF_CONDUCT.md)** - Community standards
-- **[Security Policy](../SECURITY.md)** - Security information
-- **[GitHub Issues](https://github.com/hummbl-systems/hummbl-unified-tier-framework/issues)** - Report issues
-- **[GitHub Discussions](https://github.com/hummbl-systems/hummbl-unified-tier-framework/discussions)** - Ask questions
+- **[Code of Conduct](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/CODE_OF_CONDUCT.md)** - Community standards
+- **[Security Policy](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/SECURITY.md)** - Security information
+- **[GitHub Issues](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/issues)** - Report issues
+- **[GitHub Discussions](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/discussions)** - Ask questions
 
 ---
 
@@ -216,7 +216,7 @@ Bowlby, R. (2025). *HUMMBL Unified Tier Framework v1.0: Integrating Problem Comp
 - Additional case studies
 - API specifications
 
-**[View Roadmap →](../CHANGELOG.md#unreleased---roadmap-to-v20)**
+**[View Roadmap →](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/blob/main/CHANGELOG.md#unreleased---roadmap-to-v20)**
 
 ---
 
@@ -226,7 +226,7 @@ Bowlby, R. (2025). *HUMMBL Unified Tier Framework v1.0: Integrating Problem Comp
 Chief Engineer: Reuben Bowlby
 
 - **GitLab:** [https://gitlab.com/hummbl-dev-group/hummbl-dev-project](https://gitlab.com/hummbl-dev-group/hummbl-dev-project)
-- **GitHub:** [https://github.com/hummbl-systems/hummbl-unified-tier-framework](https://github.com/hummbl-systems/hummbl-unified-tier-framework)
+- **GitHub:** [https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework)
 
 ---
 
