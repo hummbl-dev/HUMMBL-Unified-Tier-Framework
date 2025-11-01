@@ -49,7 +49,7 @@ When using this Framework, you MUST:
 
 **For Commercial Licensing Inquiries:**  
 Contact: Reuben Bowlby, Chief Engineer, HUMMBL, LLC  
-GitLab: https://gitlab.com/hummbl-dev-group/hummbl-dev-project
+GitLab: [https://gitlab.com/hummbl-dev-group/hummbl-dev-project](https://gitlab.com/hummbl-dev-group/hummbl-dev-project)
 
 ### 2.2 Redistribution
 ❌ **PROHIBITED** without authorization:

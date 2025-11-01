@@ -34,7 +34,7 @@ The HUMMBL Unified Tier Framework provides a comprehensive system for:
 
 ### Problem Complexity Tiers
 
-```
+```text
 Tier 1: Simple          ━━━━━━━━━━ (0-9 points)
 Tier 2: Complicated     ━━━━━━━━━━━━━━ (10-14 points)
 Tier 3: Complex         ━━━━━━━━━━━━━━━━━━ (15-19 points)
@@ -44,7 +44,7 @@ Tier 5: Super-Wicked    ━━━━━━━━━━━━━━━━━━�
 
 ### Learning Progression
 
-```
+```text
 Tier 0: Awareness    →  Tier 1: Beginner    →  Tier 2: Intermediate
                                                         ↓
 Tier 4: Master       ←  Tier 3: Advanced     ←  [Continue Learning]
@@ -52,7 +52,7 @@ Tier 4: Master       ←  Tier 3: Advanced     ←  [Continue Learning]
 
 ### Base-N Architecture
 
-```
+```text
 Base6   (6 models)   → Foundational
 Base12  (12 models)  → Emerging Practitioner
 Base24  (24 models)  → Professional Standard
