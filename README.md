@@ -1,8 +1,12 @@
 # HUMMBL Unified Tier Framework v1.0
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/hummbl-systems/hummbl-unified-tier-framework/releases)
-[![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE.md)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/releases)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC--ND%204.0-red.svg)](LICENSE.md)
 [![Status](https://img.shields.io/badge/status-production-green.svg)](CHANGELOG.md)
+[![Documentation](https://img.shields.io/badge/docs-live-success)](https://hummbl-dev.github.io/HUMMBL-Unified-Tier-Framework/)
+[![Markdown Lint](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/actions/workflows/markdown-lint.yml/badge.svg)](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/actions/workflows/markdown-lint.yml)
+[![Spell Check](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/actions/workflows/spell-check.yml/badge.svg)](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/actions/workflows/spell-check.yml)
+[![Link Checker](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/actions/workflows/link-checker.yml/badge.svg)](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/actions/workflows/link-checker.yml)
 
 **Integrating Problem Complexity, Learning Progression, and Base-N Architecture**
 

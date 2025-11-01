@@ -1,0 +1,24 @@
+# CODEOWNERS
+# Defines individuals or teams responsible for code in this repository
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything in the repo
+* @hummbl-dev
+
+# Core framework document
+/HUMMBL_Unified_Tier_Framework_v1.0.md @hummbl-dev
+
+# Documentation site
+/docs/ @hummbl-dev
+
+# Community health files
+/.github/ @hummbl-dev
+/CODE_OF_CONDUCT.md @hummbl-dev
+/CONTRIBUTING.md @hummbl-dev
+/SECURITY.md @hummbl-dev
+
+# Configuration files
+/.gitignore @hummbl-dev
+/LICENSE.md @hummbl-dev
+/README.md @hummbl-dev
+/CHANGELOG.md @hummbl-dev
