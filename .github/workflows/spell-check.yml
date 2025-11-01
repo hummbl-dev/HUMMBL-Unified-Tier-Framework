@@ -1,0 +1,210 @@
+name: Spell Check
+
+on:
+  pull_request:
+    paths:
+      - '**.md'
+  push:
+    branches:
+      - main
+    paths:
+      - '**.md'
+
+jobs:
+  spell-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install cspell
+        run: npm install -g cspell@8.0.0
+        
+      - name: Create custom dictionary
+        run: |
+          cat > .cspell-custom.txt << 'EOF'
+          # HUMMBL Framework Custom Dictionary
+          
+          # Framework Terms
+          HUMMBL
+          hummbl
+          wickedness
+          Base-N
+          BASE120
+          Base6
+          Base12
+          Base24
+          Base36
+          Base42
+          
+          # People and Organizations
+          DeepSeek
+          Levin
+          Cashore
+          Bernstein
+          Auld
+          Rittel
+          Webber
+          Bowlby
+          Reuben
+          ChatGPT
+          
+          # Technical Terms
+          operationalization
+          stakeholder
+          stakeholders
+          multi-model
+          multi-faceted
+          multi-generational
+          antifragility
+          meta-cognition
+          
+          # Academic Terms
+          Overcoming
+          ameliorate
+          
+          # Methodology Terms
+          rubric
+          rubrics
+          quantitative
+          qualitative
+          empirical
+          
+          # Problem Types
+          super-wicked
+          
+          # Base-N Variants
+          foundational
+          practitioner
+          
+          # Git/Tech Terms
+          GitLab
+          GitHub
+          markdownlint
+          cspell
+          
+          # Acronyms (lowercase variants)
+          roi
+          api
+          erp
+          okr
+          sha
+          url
+          ci
+          cd
+          ip
+          
+          # Common Technical
+          checkbox
+          checkbook
+          dropdown
+          dropdown
+          workflow
+          workflows
+          
+          EOF
+          
+      - name: Create cspell config
+        run: |
+          cat > cspell.json << 'EOF'
+          {
+            "version": "0.2",
+            "language": "en",
+            "words": [],
+            "dictionaryDefinitions": [
+              {
+                "name": "custom",
+                "path": "./.cspell-custom.txt"
+              }
+            ],
+            "dictionaries": ["custom"],
+            "ignorePaths": [
+              "node_modules/**",
+              ".git/**",
+              "*.log",
+              "package-lock.json"
+            ],
+            "ignoreRegExpList": [
+              "/```[\\s\\S]*?```/g",
+              "/`[^`]*`/g",
+              "/\\[.*?\\]\\(.*?\\)/g",
+              "/https?:\\/\\/[^\\s]+/g",
+              "/[A-Z]{2,}/g"
+            ]
+          }
+          EOF
+          
+      - name: Run spell check
+        id: spell-check
+        continue-on-error: true
+        run: |
+          echo "📝 Checking spelling in markdown files..."
+          cspell "**/*.md" --no-progress --show-suggestions > spell-results.txt 2>&1 || true
+          cat spell-results.txt
+          
+      - name: Count spelling issues
+        run: |
+          if [ -f spell-results.txt ]; then
+            ISSUE_COUNT=$(grep -c "Unknown word" spell-results.txt || true)
+            
+            if [ "$ISSUE_COUNT" -gt 0 ]; then
+              echo "⚠️  Found $ISSUE_COUNT potential spelling issues"
+              echo "These are warnings only and won't block the PR"
+              echo ""
+              echo "Common false positives:"
+              echo "- Technical terms not in dictionary"
+              echo "- Proper nouns and names"
+              echo "- Domain-specific terminology"
+              echo ""
+              echo "Please review and either:"
+              echo "1. Fix actual typos"
+              echo "2. Add legitimate terms to .cspell-custom.txt"
+            else
+              echo "✅ No spelling issues found"
+            fi
+          fi
+          
+      - name: Comment on PR with results
+        if: github.event_name == 'pull_request' && steps.spell-check.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let results = '';
+            try {
+              results = fs.readFileSync('spell-results.txt', 'utf8');
+            } catch (e) {
+              results = 'No results file found';
+            }
+            
+            const issueCount = (results.match(/Unknown word/g) || []).length;
+            
+            if (issueCount > 0) {
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `## ⚠️  Spell Check Results\n\n` +
+                      `Found ${issueCount} potential spelling issues (non-blocking).\n\n` +
+                      `<details>\n<summary>View Details</summary>\n\n` +
+                      `\`\`\`\n${results.slice(0, 2000)}\n\`\`\`\n\n` +
+                      `</details>\n\n` +
+                      `**Note:** These are warnings only. Please review and either:\n` +
+                      `1. Fix actual typos\n` +
+                      `2. Add legitimate terms to \`.cspell-custom.txt\`\n`
+              });
+            }
+          
+      - name: Upload spell check results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spell-check-results
+          path: spell-results.txt
+          retention-days: 30

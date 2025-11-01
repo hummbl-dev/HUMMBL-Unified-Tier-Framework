@@ -1,0 +1,89 @@
+name: Markdown Lint
+
+on:
+  pull_request:
+    paths:
+      - '**.md'
+  push:
+    branches:
+      - main
+    paths:
+      - '**.md'
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli@0.39.0
+        
+      - name: Create markdownlint config
+        run: |
+          cat > .markdownlint.json << 'EOF'
+          {
+            "default": true,
+            "MD013": false,
+            "MD033": false,
+            "MD041": false,
+            "MD032": {
+              "severity": "warning"
+            },
+            "MD034": {
+              "severity": "error"
+            },
+            "MD036": {
+              "severity": "warning"
+            },
+            "MD040": {
+              "severity": "error"
+            }
+          }
+          EOF
+          
+      - name: Run markdownlint
+        id: lint
+        continue-on-error: true
+        run: |
+          markdownlint '**/*.md' --ignore node_modules --ignore .github > lint-results.txt 2>&1 || true
+          cat lint-results.txt
+          
+      - name: Check for critical errors
+        run: |
+          if grep -E "MD034|MD040" lint-results.txt; then
+            echo "❌ Critical markdown lint errors found!"
+            echo "Please fix bare URLs (MD034) and code fence languages (MD040)"
+            exit 1
+          else
+            echo "✅ No critical markdown lint errors"
+          fi
+          
+      - name: Report warnings
+        if: always()
+        run: |
+          if [ -f lint-results.txt ]; then
+            echo "📋 Markdown Lint Results:"
+            cat lint-results.txt
+            
+            WARNING_COUNT=$(grep -c "MD032\|MD036" lint-results.txt || true)
+            if [ "$WARNING_COUNT" -gt 0 ]; then
+              echo "⚠️  Found $WARNING_COUNT cosmetic warnings (non-blocking)"
+              echo "These are style preferences and won't block the PR"
+            fi
+          fi
+          
+      - name: Upload lint results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: markdown-lint-results
+          path: lint-results.txt
+          retention-days: 30

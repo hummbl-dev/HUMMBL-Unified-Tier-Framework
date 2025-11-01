@@ -1,0 +1,115 @@
+name: Link Checker
+
+on:
+  pull_request:
+    paths:
+      - '**.md'
+  push:
+    branches:
+      - main
+    paths:
+      - '**.md'
+  schedule:
+    # Run weekly on Mondays at 9:00 AM UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install markdown-link-check
+        run: npm install -g markdown-link-check@3.12.1
+        
+      - name: Create link check config
+        run: |
+          cat > .markdown-link-check.json << 'EOF'
+          {
+            "ignorePatterns": [
+              {
+                "pattern": "^#"
+              }
+            ],
+            "replacementPatterns": [],
+            "httpHeaders": [
+              {
+                "urls": ["https://gitlab.com"],
+                "headers": {
+                  "User-Agent": "Mozilla/5.0 (compatible; LinkChecker/1.0)"
+                }
+              }
+            ],
+            "timeout": "20s",
+            "retryOn429": true,
+            "retryCount": 3,
+            "fallbackRetryDelay": "30s",
+            "aliveStatusCodes": [200, 206, 301, 302, 307, 308]
+          }
+          EOF
+          
+      - name: Check links in markdown files
+        id: link-check
+        continue-on-error: true
+        run: |
+          echo "🔗 Checking links in markdown files..."
+          
+          FAILED=0
+          for file in $(find . -name "*.md" -not -path "./node_modules/*" -not -path "./.github/*"); do
+            echo "Checking: $file"
+            if ! markdown-link-check "$file" --config .markdown-link-check.json; then
+              FAILED=1
+              echo "❌ Broken links found in $file"
+            fi
+          done
+          
+          if [ $FAILED -eq 1 ]; then
+            exit 1
+          fi
+          
+      - name: Check internal cross-references
+        run: |
+          echo "📚 Checking internal cross-references..."
+          
+          # Extract all internal anchor links
+          grep -roh '\[.*\](#[^)]*)'  *.md | sed 's/.*](#\(.*\))/\1/' | sort -u > anchors-used.txt || true
+          
+          # Extract all heading anchors
+          grep -roh '^#.*' *.md | sed 's/^#* //' | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -d '.,()' > anchors-defined.txt || true
+          
+          echo "✅ Cross-reference check complete"
+          
+      - name: Report results
+        if: always()
+        run: |
+          if [ -f anchors-used.txt ] && [ -f anchors-defined.txt ]; then
+            MISSING=$(comm -23 <(sort anchors-used.txt) <(sort anchors-defined.txt) || true)
+            if [ -n "$MISSING" ]; then
+              echo "⚠️  Potentially missing anchors:"
+              echo "$MISSING"
+            else
+              echo "✅ All internal cross-references appear valid"
+            fi
+          fi
+          
+      - name: Create issue on failure
+        if: failure() && github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '🔗 Broken links detected in documentation',
+              body: 'The scheduled link check found broken links. Please review the workflow run for details.\n\n' +
+                    'Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}',
+              labels: ['documentation', 'bug', 'automated']
+            })
