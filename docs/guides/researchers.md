@@ -146,7 +146,7 @@ This guide outlines research opportunities and methodologies for validating and 
 ### Citing the Framework
 
 **APA Style:**
-```
+```text
 Bowlby, R. (2025). HUMMBL Unified Tier Framework v1.0: Integrating Problem 
 Complexity, Learning Progression, and Base-N Architecture. HUMMBL, LLC.
 ```

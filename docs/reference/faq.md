@@ -109,7 +109,7 @@ Typically every 1-3 months for ongoing initiatives.
 
 **A:** Yes! Please use proper citation:
 
-```
+```text
 Bowlby, R. (2025). HUMMBL Unified Tier Framework v1.0: Integrating Problem 
 Complexity, Learning Progression, and Base-N Architecture. HUMMBL, LLC.
 ```

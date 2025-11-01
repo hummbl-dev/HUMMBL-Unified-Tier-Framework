@@ -90,7 +90,7 @@
 ### When Using the Framework
 
 **Minimum Attribution:**
-```
+```text
 Framework: HUMMBL Unified Tier Framework v1.0
 Author: Reuben Bowlby (2025)
 Organization: HUMMBL, LLC
@@ -100,7 +100,7 @@ License: CC BY-NC-ND 4.0
 ### In Academic Work
 
 **APA Style:**
-```
+```text
 Bowlby, R. (2025). HUMMBL Unified Tier Framework v1.0: Integrating Problem 
 Complexity, Learning Progression, and Base-N Architecture. HUMMBL, LLC.
 ```
@@ -108,7 +108,7 @@ Complexity, Learning Progression, and Base-N Architecture. HUMMBL, LLC.
 ### In Presentations
 
 **Slide Footer:**
-```
+```text
 Source: HUMMBL Unified Tier Framework v1.0 (Bowlby, 2025) | HUMMBL, LLC
 ```
 
