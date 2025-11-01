@@ -196,12 +196,12 @@ The Base-N Architecture provides a **systematic framework for selecting mental m
 **Problem Complexity:** Tier 4-5 (Wicked to Super-Wicked)
 
 **6 Transformations:**
-1. **Perspectives (P)** (20 models) - How we see and frame problems
-2. **Decisions (D)** (20 models) - How we choose and commit
-3. **Execution (E)** (20 models) - How we implement and deliver
-4. **Relationships (R)** (20 models) - How we collaborate and influence
-5. **Patterns (PT)** (20 models) - How we recognize and predict
-6. **Systems (S)** (20 models) - How we understand interconnections
+1. **Perspective (P)** (20 models) - How we see and frame problems
+2. **Inversion (IN)** (20 models) - Reverse assumptions
+3. **Composition (CO)** (20 models) - Combine parts into wholes
+4. **Decomposition (DE)** (20 models) - Break wholes into components
+5. **Recursion (RE)** (20 models) - Iterate, feedback, self-reference
+6. **Meta-Systems (SY)** (20 models) - Coordinate systems-of-systems
 
 **Use Cases:**
 - Super-wicked problems
