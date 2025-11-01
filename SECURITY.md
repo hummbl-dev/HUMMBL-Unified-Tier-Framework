@@ -84,7 +84,7 @@ Please report security vulnerabilities if you discover:
 
 **Primary Contact:**  
 HUMMBL Systems LLC  
-GitLab: https://gitlab.com/hummbl-dev-group/hummbl-dev-project  
+GitLab: [https://gitlab.com/hummbl-dev-group/hummbl-dev-project](https://gitlab.com/hummbl-dev-group/hummbl-dev-project)  
 Subject: [SECURITY] Brief description
 
 **What to Include:**

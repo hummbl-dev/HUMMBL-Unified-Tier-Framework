@@ -94,20 +94,20 @@ The following contributions are acknowledged and attributed:
 When referencing this Framework in academic work, you MUST include:
 
 **For the Framework:**
-```
+```text
 Bowlby, R. (2025). HUMMBL Unified Tier Framework v1.0: Integrating Problem Complexity, 
 Learning Progression, and Base-N Architecture. HUMMBL Systems LLC.
 ```
 
 **For Super-Wicked Problems Concept:**
-```
+```text
 Levin, K., Cashore, B., Bernstein, S., & Auld, G. (2012). Overcoming the tragedy of 
 super wicked problems: constraining our future selves to ameliorate global climate change. 
 Policy Sciences, 45(2), 123-152.
 ```
 
 **For Wicked Problems Concept:**
-```
+```text
 Rittel, H. W. J., & Webber, M. M. (1973). Dilemmas in a general theory of planning. 
 Policy Sciences, 4(2), 155-169.
 ```
@@ -185,7 +185,7 @@ This license is governed by the laws of the jurisdiction where HUMMBL Systems LL
 **For Licensing Inquiries:**  
 HUMMBL Systems LLC  
 Chief Engineer: Reuben Bowlby  
-GitLab: https://gitlab.com/hummbl-dev-group/hummbl-dev-project
+GitLab: [https://gitlab.com/hummbl-dev-group/hummbl-dev-project](https://gitlab.com/hummbl-dev-group/hummbl-dev-project)
 
 **For Permission Requests:**  
 Submit detailed requests via GitLab issues with:

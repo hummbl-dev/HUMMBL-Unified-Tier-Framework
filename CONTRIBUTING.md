@@ -117,6 +117,7 @@ git clone https://github.com/YOUR-USERNAME/hummbl-unified-tier-framework.git
 cd hummbl-unified-tier-framework
 ```
 
+
 ### 2. Create a Branch
 
 ```bash
@@ -149,7 +150,7 @@ git commit -m "fix: correct typo in wickedness scoring section"
 ```
 
 **Commit Message Format:**
-```
+```text
 <type>: <short description>
 
 [optional body]
@@ -217,6 +218,7 @@ How were these changes tested?
 - [ ] I agree to the license terms
 ```
 
+
 ---
 
 ## 🎨 Style Guidelines
@@ -279,12 +281,14 @@ Problems with few variables, clear cause-effect relationships, and well-establis
 - Balancing a checkbook
 ```
 
+
 **Bad:**
 ```markdown
 ### Tier 1
 Simple problems are easy to solve.
 Examples: flat tire, checkbook
 ```
+
 
 ---
 
