@@ -127,8 +127,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to propose changes and additions.
 
 ### Issue Tracking
 Report issues, suggest enhancements, or request clarifications via:
-- **GitHub Issues:** https://github.com/hummbl-systems/hummbl-unified-tier-framework/issues
-- **GitLab Issues:** https://gitlab.com/hummbl-dev-group/hummbl-dev-project/issues
+- **GitHub Issues:** [https://github.com/hummbl-systems/hummbl-unified-tier-framework/issues](https://github.com/hummbl-systems/hummbl-unified-tier-framework/issues)
+- **GitLab Issues:** [https://gitlab.com/hummbl-dev-group/hummbl-dev-project/issues](https://gitlab.com/hummbl-dev-group/hummbl-dev-project/issues)
 
 ---
 
