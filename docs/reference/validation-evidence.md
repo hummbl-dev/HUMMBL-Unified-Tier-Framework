@@ -98,7 +98,7 @@ See [Researchers Guide](../guides/researchers.md)
 ### Framework Citation
 
 **APA:**
-```
+```text
 Bowlby, R. (2025). HUMMBL Unified Tier Framework v1.0: Integrating Problem 
 Complexity, Learning Progression, and Base-N Architecture. HUMMBL, LLC.
 ```
@@ -117,13 +117,13 @@ Complexity, Learning Progression, and Base-N Architecture. HUMMBL, LLC.
 ### Academic Foundations
 
 **Wicked Problems:**
-```
+```text
 Rittel, H. W. J., & Webber, M. M. (1973). Dilemmas in a general theory of 
 planning. Policy Sciences, 4(2), 155-169.
 ```
 
 **Super-Wicked Problems:**
-```
+```text
 Levin, K., Cashore, B., Bernstein, S., & Auld, G. (2012). Overcoming the 
 tragedy of super wicked problems: constraining our future selves to ameliorate 
 global climate change. Policy Sciences, 45(2), 123-152.
