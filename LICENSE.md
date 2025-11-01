@@ -1,12 +1,12 @@
 # Proprietary License
 
-**Copyright © 2025 HUMMBL Systems LLC. All Rights Reserved.**
+**Copyright © 2025 HUMMBL, LLC. All Rights Reserved.**
 
 ---
 
 ## License Terms
 
-This HUMMBL Unified Tier Framework (the "Framework") is proprietary intellectual property owned by HUMMBL Systems LLC ("HUMMBL"). By accessing, using, or referencing this Framework, you agree to the following terms:
+This HUMMBL Unified Tier Framework (the "Framework") is proprietary intellectual property owned by HUMMBL, LLC ("HUMMBL"). By accessing, using, or referencing this Framework, you agree to the following terms:
 
 ---
 
@@ -29,7 +29,7 @@ This HUMMBL Unified Tier Framework (the "Framework") is proprietary intellectual
 
 ### 1.3 Attribution Requirements
 When using this Framework, you MUST:
-1. Credit HUMMBL Systems LLC for proprietary components
+1. Credit HUMMBL, LLC for proprietary components
 2. Credit DeepSeek AI for applicable contributions (Tier 1-4 descriptions, learning labels)
 3. Cite Levin et al. (2012) when referencing super-wicked problems concept
 4. Maintain this attribution section if redistributing
@@ -48,7 +48,7 @@ When using this Framework, you MUST:
 - Using Framework methodologies in commercial contexts
 
 **For Commercial Licensing Inquiries:**  
-Contact: Reuben Bowlby, Chief Engineer, HUMMBL Systems LLC  
+Contact: Reuben Bowlby, Chief Engineer, HUMMBL, LLC  
 GitLab: https://gitlab.com/hummbl-dev-group/hummbl-dev-project
 
 ### 2.2 Redistribution
@@ -63,13 +63,13 @@ GitLab: https://gitlab.com/hummbl-dev-group/hummbl-dev-project
 - Claiming proprietary components as original work
 - Misrepresenting the novelty of concepts with prior art
 - Removing attribution to DeepSeek AI or academic sources
-- Falsely implying endorsement by HUMMBL Systems
+- Falsely implying endorsement by HUMMBL
 
 ---
 
 ## 3. Proprietary Components
 
-The following elements are proprietary intellectual property of HUMMBL Systems LLC and may not be reproduced, modified, or distributed without explicit written permission:
+The following elements are proprietary intellectual property of HUMMBL, LLC and may not be reproduced, modified, or distributed without explicit written permission:
 
 ### 3.1 HUMMBL Proprietary Innovations
 - **Tier 5 (Super-Wicked) Operationalization:** Quantitative criteria, assessment protocols, and application methodologies
@@ -96,7 +96,7 @@ When referencing this Framework in academic work, you MUST include:
 **For the Framework:**
 ```text
 Bowlby, R. (2025). HUMMBL Unified Tier Framework v1.0: Integrating Problem Complexity, 
-Learning Progression, and Base-N Architecture. HUMMBL Systems LLC.
+Learning Progression, and Base-N Architecture. HUMMBL, LLC.
 ```
 
 **For Super-Wicked Problems Concept:**
@@ -126,7 +126,7 @@ Any derivative works must:
 
 **THE FRAMEWORK IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.**
 
-HUMMBL Systems LLC makes no warranties, express or implied, including but not limited to:
+HUMMBL, LLC makes no warranties, express or implied, including but not limited to:
 - Merchantability or fitness for a particular purpose
 - Accuracy or completeness of information
 - Suitability for specific problem domains
@@ -152,7 +152,7 @@ HUMMBL Systems LLC makes no warranties, express or implied, including but not li
 All content, methodologies, and documentation are protected by copyright law. Unauthorized copying, modification, or distribution is prohibited.
 
 ### 7.2 Trademarks
-"HUMMBL," "BASE120," "Base-N Architecture," and related marks are trademarks of HUMMBL Systems LLC.
+"HUMMBL," "BASE120," "Base-N Architecture," and related marks are trademarks of HUMMBL, LLC.
 
 ### 7.3 Trade Secrets
 Certain methodologies, algorithms, and validation data constitute trade secrets and are protected accordingly.
@@ -176,14 +176,14 @@ Upon termination, you must:
 
 ## 9. Governing Law
 
-This license is governed by the laws of the jurisdiction where HUMMBL Systems LLC is registered, without regard to conflict of law principles.
+This license is governed by the laws of the jurisdiction where HUMMBL, LLC is registered, without regard to conflict of law principles.
 
 ---
 
 ## 10. Contact Information
 
 **For Licensing Inquiries:**  
-HUMMBL Systems LLC  
+HUMMBL, LLC  
 Chief Engineer: Reuben Bowlby  
 GitLab: [https://gitlab.com/hummbl-dev-group/hummbl-dev-project](https://gitlab.com/hummbl-dev-group/hummbl-dev-project)
 
@@ -198,7 +198,7 @@ Submit detailed requests via GitLab issues with:
 
 ## 11. License Updates
 
-HUMMBL Systems LLC reserves the right to update these license terms. Continued use of the Framework after updates constitutes acceptance of revised terms.
+HUMMBL, LLC reserves the right to update these license terms. Continued use of the Framework after updates constitutes acceptance of revised terms.
 
 **Current Version:** 1.0  
 **Effective Date:** November 1, 2025  
@@ -210,4 +210,4 @@ HUMMBL Systems LLC reserves the right to update these license terms. Continued u
 
 ---
 
-**Copyright © 2025 HUMMBL Systems LLC. All Rights Reserved.**
+**Copyright © 2025 HUMMBL, LLC. All Rights Reserved.**

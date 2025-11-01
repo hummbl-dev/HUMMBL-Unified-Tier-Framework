@@ -83,7 +83,7 @@ Please report security vulnerabilities if you discover:
 **Instead, report privately via:**
 
 **Primary Contact:**  
-HUMMBL Systems LLC  
+HUMMBL, LLC  
 GitLab: [https://gitlab.com/hummbl-dev-group/hummbl-dev-project](https://gitlab.com/hummbl-dev-group/hummbl-dev-project)  
 Subject: [SECURITY] Brief description
 
@@ -296,6 +296,6 @@ We take security seriously and are committed to:
 
 ---
 
-**Maintained by HUMMBL Systems LLC**  
+**Maintained by HUMMBL, LLC**  
 **Last Updated:** November 1, 2025  
 **Policy Version:** 1.0

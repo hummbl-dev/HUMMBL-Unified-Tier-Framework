@@ -43,7 +43,7 @@ The first complete release of the HUMMBL Unified Tier Framework, integrating pro
 - Alternative categorization schemes and pedagogical framework insights
 - Use case groupings and complementary model pairings
 
-#### HUMMBL Systems Proprietary Research (2024-2025)
+#### HUMMBL Proprietary Research (2024-2025)
 - Tier 5 (Super-Wicked) operationalization with quantitative criteria
 - 5-question wickedness scoring methodology (0-30 point scale)
 - Base-N architecture mathematical foundations and selection algorithms
@@ -141,5 +141,5 @@ Report issues, suggest enhancements, or request clarifications via:
 
 ---
 
-**Maintained by HUMMBL Systems LLC**  
+**Maintained by HUMMBL, LLC**  
 **Last Updated:** November 1, 2025

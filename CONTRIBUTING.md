@@ -324,7 +324,7 @@ Reviewers will assess:
 
 - Requires approval from project maintainers
 - May require multiple review rounds
-- Final decision rests with HUMMBL Systems
+- Final decision rests with HUMMBL
 
 ---
 
@@ -385,5 +385,5 @@ Thank you for contributing to the HUMMBL Unified Tier Framework. Your contributi
 
 ---
 
-**Maintained by HUMMBL Systems LLC**  
+**Maintained by HUMMBL, LLC**  
 **Last Updated:** November 1, 2025

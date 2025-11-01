@@ -155,13 +155,13 @@ Quantitative assessment methodology:
   title={HUMMBL Unified Tier Framework v1.0: Integrating Problem Complexity, Learning Progression, and Base-N Architecture},
   author={Bowlby, Reuben},
   year={2025},
-  institution={HUMMBL Systems LLC}
+  institution={HUMMBL, LLC}
 }
 ```
 
 ### APA
 
-Bowlby, R. (2025). *HUMMBL Unified Tier Framework v1.0: Integrating Problem Complexity, Learning Progression, and Base-N Architecture*. HUMMBL Systems LLC.
+Bowlby, R. (2025). *HUMMBL Unified Tier Framework v1.0: Integrating Problem Complexity, Learning Progression, and Base-N Architecture*. HUMMBL, LLC.
 
 **[View Full Citation Guide →](../README.md#-citation)**
 
@@ -178,7 +178,7 @@ Bowlby, R. (2025). *HUMMBL Unified Tier Framework v1.0: Integrating Problem Comp
 - **Levin et al. (2012)** - Super-wicked problems concept
 - **Rittel & Webber (1973)** - Wicked problems concept
 
-### HUMMBL Systems (2024-2025)
+### HUMMBL (2024-2025)
 - Tier 5 operationalization
 - Wickedness scoring methodology
 - Base-N architecture
@@ -222,7 +222,7 @@ Bowlby, R. (2025). *HUMMBL Unified Tier Framework v1.0: Integrating Problem Comp
 
 ## Contact
 
-**HUMMBL Systems LLC**  
+**HUMMBL, LLC**  
 Chief Engineer: Reuben Bowlby
 
 - **GitLab:** [https://gitlab.com/hummbl-dev-group/hummbl-dev-project](https://gitlab.com/hummbl-dev-group/hummbl-dev-project)

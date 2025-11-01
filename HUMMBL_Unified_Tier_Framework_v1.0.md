@@ -13,7 +13,7 @@
 
 ## Executive Summary
 
-The HUMMBL Unified Tier Framework provides a comprehensive system for classifying problem complexity, mapping learning progression, and selecting appropriate mental model combinations for systematic problem-solving. This framework synthesizes insights from DeepSeek AI collaboration (October 2025) with HUMMBL Systems' proprietary research and empirical validation work.
+The HUMMBL Unified Tier Framework provides a comprehensive system for classifying problem complexity, mapping learning progression, and selecting appropriate mental model combinations for systematic problem-solving. This framework synthesizes insights from DeepSeek AI collaboration (October 2025) with HUMMBL' proprietary research and empirical validation work.
 
 ### Key Innovations
 
@@ -259,7 +259,7 @@ Problems with fundamental stakeholder disagreement, no clear stopping rule, and 
 A subset of wicked problems with additional structural barriers: time is running out, no central authority exists, those seeking solutions are also causing the problem, and policies discount the future. The concept of super-wicked problems was introduced by Levin et al. (2012) in the context of global climate change.
 
 **HUMMBL's Contribution:**
-While the concept originates in academic literature, HUMMBL Systems has developed a formalized operationalization including quantitative criteria, assessment protocols, and integration with the Base-N architecture.
+While the concept originates in academic literature, HUMMBL has developed a formalized operationalization including quantitative criteria, assessment protocols, and integration with the Base-N architecture.
 
 **Characteristics:**
 - **Stakeholder Alignment:** Fundamental disagreement compounded by conflicting incentives
@@ -1092,7 +1092,7 @@ Production release v1.0 for initial public distribution. Target v2.0 upon comple
 #### DeepSeek AI Collaboration (October 2025)
 
 **Context:**
-In October 2025, HUMMBL Systems engaged with DeepSeek AI to explore pedagogical frameworks and alternative categorization schemes for the HUMMBL mental models collection. DeepSeek provided valuable descriptive enhancements that improved accessibility for learners.
+In October 2025, HUMMBL engaged with DeepSeek AI to explore pedagogical frameworks and alternative categorization schemes for the HUMMBL mental models collection. DeepSeek provided valuable descriptive enhancements that improved accessibility for learners.
 
 **Specific DeepSeek Contributions:**
 
@@ -1129,7 +1129,7 @@ DeepSeek's October 2025 framework did NOT include:
 
 ---
 
-#### HUMMBL Systems Proprietary Research (2024-2025)
+#### HUMMBL Proprietary Research (2024-2025)
 
 **Timeline:**
 - **2024:** Base6-Base42 architecture design and initial testing
@@ -1196,10 +1196,10 @@ DeepSeek's October 2025 framework did NOT include:
 
 ### 6.3 Intellectual Property Statement
 
-**Copyright © 2025 HUMMBL Systems LLC. All Rights Reserved.**
+**Copyright © 2025 HUMMBL, LLC. All Rights Reserved.**
 
 **Proprietary Components:**
-The following elements are proprietary intellectual property of HUMMBL Systems and may not be reproduced, modified, or distributed without explicit written permission:
+The following elements are proprietary intellectual property of HUMMBL and may not be reproduced, modified, or distributed without explicit written permission:
 
 - Tier 5 operationalization criteria and application protocols
 - 5-question wickedness scoring methodology and rubrics
@@ -1218,7 +1218,7 @@ The following elements are proprietary intellectual property of HUMMBL Systems a
 
 **Attribution Requirements:**
 Any derivative works, citations, or references to this framework must:
-1. Credit HUMMBL Systems for proprietary components listed above
+1. Credit HUMMBL for proprietary components listed above
 2. Credit DeepSeek AI for applicable descriptive enhancements (Tier 1-4, learning labels)
 3. Cite Levin et al. (2012) when referencing super-wicked problems concept
 4. Maintain this attribution section in full if redistributing
@@ -1230,7 +1230,7 @@ This framework is licensed for use in HUMMBL training programs, consulting engag
 
 **For Commercial Licensing Inquiries:**  
 Reuben Bowlby, Chief Engineer  
-HUMMBL Systems LLC  
+HUMMBL, LLC  
 GitLab: [https://gitlab.com/hummbl-dev-group/hummbl-dev-project](https://gitlab.com/hummbl-dev-group/hummbl-dev-project)
 
 ---
@@ -1245,7 +1245,7 @@ GitLab: [https://gitlab.com/hummbl-dev-group/hummbl-dev-project](https://gitlab.
          │                                      │
          │                                      │
     ┌────▼────────────────┐          ┌─────────▼─────────────┐
-    │ DeepSeek AI         │          │ HUMMBL Systems        │
+    │ DeepSeek AI         │          │ HUMMBL        │
     │ Contributions       │          │ Proprietary Research  │
     │ (October 2025)      │          │ (2024-2025)           │
     ├─────────────────────┤          ├───────────────────────┤
@@ -1620,24 +1620,24 @@ Rittel, H. W. J., & Webber, M. M. (1973). Dilemmas in a general theory of planni
 
 **HUMMBL Project References:**
 
-HUMMBL Systems LLC. (2025). BASE120 Mental Model Validation Framework. GitLab Repository. Retrieved from [https://gitlab.com/hummbl-dev-group/hummbl-dev-project](https://gitlab.com/hummbl-dev-group/hummbl-dev-project)
+HUMMBL, LLC. (2025). BASE120 Mental Model Validation Framework. GitLab Repository. Retrieved from [https://gitlab.com/hummbl-dev-group/hummbl-dev-project](https://gitlab.com/hummbl-dev-group/hummbl-dev-project)
 
 **Framework Development:**
 
-DeepSeek AI. (2025). Pedagogical framework development and learning progression insights. Collaboration with HUMMBL Systems (October 2025).
+DeepSeek AI. (2025). Pedagogical framework development and learning progression insights. Collaboration with HUMMBL (October 2025).
 
 ---
 
 ## Document End
 
-**Copyright © 2025 HUMMBL Systems LLC. All Rights Reserved.**
+**Copyright © 2025 HUMMBL, LLC. All Rights Reserved.**
 
 **For updates and latest version:**  
-Contact: Reuben Bowlby, Chief Engineer, HUMMBL Systems  
+Contact: Reuben Bowlby, Chief Engineer, HUMMBL  
 GitLab: [https://gitlab.com/hummbl-dev-group/hummbl-dev-project](https://gitlab.com/hummbl-dev-group/hummbl-dev-project)
 
 **Citation:**  
-Bowlby, R. (2025). HUMMBL Unified Tier Framework v1.0: Integrating Problem Complexity, Learning Progression, and Base-N Architecture. HUMMBL Systems LLC.
+Bowlby, R. (2025). HUMMBL Unified Tier Framework v1.0: Integrating Problem Complexity, Learning Progression, and Base-N Architecture. HUMMBL, LLC.
 
 ---
 

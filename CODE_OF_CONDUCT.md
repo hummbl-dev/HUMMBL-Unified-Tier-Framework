@@ -68,7 +68,7 @@ This Code of Conduct also applies when an individual is officially representing 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at:
 
 **Primary Contact:**  
-HUMMBL Systems LLC  
+HUMMBL, LLC  
 Via GitLab: https://gitlab.com/hummbl-dev-group/hummbl-dev-project
 
 **What to Include in Your Report:**
@@ -188,5 +188,5 @@ We are committed to providing a welcoming and inspiring community for all. We ex
 
 ---
 
-**Maintained by HUMMBL Systems LLC**  
+**Maintained by HUMMBL, LLC**  
 **Last Updated:** November 1, 2025

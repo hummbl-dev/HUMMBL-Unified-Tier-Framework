@@ -134,13 +134,13 @@ If you use this framework in your work, please cite:
   title={HUMMBL Unified Tier Framework v1.0: Integrating Problem Complexity, Learning Progression, and Base-N Architecture},
   author={Bowlby, Reuben},
   year={2025},
-  institution={HUMMBL Systems LLC},
+  institution={HUMMBL, LLC},
   url={https://github.com/hummbl-systems/hummbl-unified-tier-framework}
 }
 ```
 
 **APA Format:**
-Bowlby, R. (2025). *HUMMBL Unified Tier Framework v1.0: Integrating Problem Complexity, Learning Progression, and Base-N Architecture*. HUMMBL Systems LLC.
+Bowlby, R. (2025). *HUMMBL Unified Tier Framework v1.0: Integrating Problem Complexity, Learning Progression, and Base-N Architecture*. HUMMBL, LLC.
 
 ---
 
@@ -158,7 +158,7 @@ Bowlby, R. (2025). *HUMMBL Unified Tier Framework v1.0: Integrating Problem Comp
 - **Super-Wicked Problems Concept:** Levin, K., Cashore, B., Bernstein, S., & Auld, G. (2012). Overcoming the tragedy of super wicked problems: constraining our future selves to ameliorate global climate change. *Policy Sciences*, 45(2), 123-152.
 - **Wicked Problems Concept:** Rittel, H. W. J., & Webber, M. M. (1973). Dilemmas in a general theory of planning. *Policy Sciences*, 4(2), 155-169.
 
-### HUMMBL Systems Proprietary Components
+### HUMMBL Proprietary Components
 
 - Tier 5 (Super-Wicked) operationalization and quantitative criteria
 - 5-question wickedness scoring methodology
@@ -171,7 +171,7 @@ Bowlby, R. (2025). *HUMMBL Unified Tier Framework v1.0: Integrating Problem Comp
 
 ## 📋 License
 
-**Copyright © 2025 HUMMBL Systems LLC. All Rights Reserved.**
+**Copyright © 2025 HUMMBL, LLC. All Rights Reserved.**
 
 This framework is proprietary intellectual property. See [LICENSE.md](LICENSE.md) for complete terms.
 
@@ -222,7 +222,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 ## 📞 Contact
 
-**HUMMBL Systems LLC**  
+**HUMMBL, LLC**  
 Chief Engineer: Reuben Bowlby
 
 - **GitLab:** [https://gitlab.com/hummbl-dev-group/hummbl-dev-project](https://gitlab.com/hummbl-dev-group/hummbl-dev-project)
