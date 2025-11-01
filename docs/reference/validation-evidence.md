@@ -19,12 +19,12 @@
 
 ### 6 Transformations
 
-1. **Cognitive Models** (20 models) - Thinking patterns and mental frameworks
-2. **Systems Models** (20 models) - Interconnections and feedback loops
-3. **Strategic Models** (20 models) - Decision frameworks and planning
-4. **Social Models** (20 models) - Human dynamics and collaboration
-5. **Evolutionary Models** (20 models) - Change and adaptation over time
-6. **Meta Models** (20 models) - Models about models, meta-cognition
+1. **Perspectives (P)** (20 models) - How we see and frame problems
+2. **Decisions (D)** (20 models) - How we choose and commit
+3. **Execution (E)** (20 models) - How we implement and deliver
+4. **Relationships (R)** (20 models) - How we collaborate and influence
+5. **Patterns (PT)** (20 models) - How we recognize and predict
+6. **Systems (S)** (20 models) - How we understand interconnections
 
 **Total:** 120 models across 6 transformations
 

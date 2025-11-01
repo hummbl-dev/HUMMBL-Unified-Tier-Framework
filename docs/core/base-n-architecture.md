@@ -196,12 +196,12 @@ The Base-N Architecture provides a **systematic framework for selecting mental m
 **Problem Complexity:** Tier 4-5 (Wicked to Super-Wicked)
 
 **6 Transformations:**
-1. **Cognitive Models** (20 models) - Thinking patterns
-2. **Systems Models** (20 models) - Interconnections
-3. **Strategic Models** (20 models) - Decision frameworks
-4. **Social Models** (20 models) - Human dynamics
-5. **Evolutionary Models** (20 models) - Change over time
-6. **Meta Models** (20 models) - Models about models
+1. **Perspectives (P)** (20 models) - How we see and frame problems
+2. **Decisions (D)** (20 models) - How we choose and commit
+3. **Execution (E)** (20 models) - How we implement and deliver
+4. **Relationships (R)** (20 models) - How we collaborate and influence
+5. **Patterns (PT)** (20 models) - How we recognize and predict
+6. **Systems (S)** (20 models) - How we understand interconnections
 
 **Use Cases:**
 - Super-wicked problems
