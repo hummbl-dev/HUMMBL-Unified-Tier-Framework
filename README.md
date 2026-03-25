@@ -7,6 +7,7 @@
 [![Markdown Lint](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/actions/workflows/markdown-lint.yml/badge.svg)](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/actions/workflows/markdown-lint.yml)
 [![Spell Check](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/actions/workflows/spell-check.yml/badge.svg)](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/actions/workflows/spell-check.yml)
 [![Link Checker](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/actions/workflows/link-checker.yml/badge.svg)](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/actions/workflows/link-checker.yml)
+[![CI](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/actions/workflows/ci.yml/badge.svg)](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/actions/workflows/ci.yml)
 
 **Integrating Problem Complexity, Learning Progression, and Base-N Architecture**
 
