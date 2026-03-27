@@ -39,6 +39,7 @@ Provide a compact working table for the three-layer direction now emerging in th
 - execution capacity
 - coordination capability
 - adaptive capacity
+- bio-cognitive operating condition
 
 ### BKI
 
@@ -50,6 +51,7 @@ Provide a compact working table for the three-layer direction now emerging in th
 - boundary mediation
 - representation quality
 - knowledge-flow quality
+- shared-attention durability under load
 
 ## Best Current Sources By Layer
 
@@ -107,6 +109,7 @@ Provide a compact working table for the three-layer direction now emerging in th
 - execution bottlenecks
 - weak ownership
 - adaptation without loss of core intent
+- fatigue, overload, or ergonomic strain degrading execution
 
 ### BKI Signals
 
@@ -114,6 +117,7 @@ Provide a compact working table for the three-layer direction now emerging in th
 - low psychological safety
 - poor translation across domains
 - low trace usability across roles
+- degraded shared knowing under sustained workload
 
 ## Working Rule
 
