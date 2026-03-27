@@ -19,6 +19,7 @@ Index the short refresh notes created during the current autonomous research pas
 - [bki-and-sdg-refresh-2026-03-27.md](bki-and-sdg-refresh-2026-03-27.md)
 - [mission-command-notes-2026-03-27.md](mission-command-notes-2026-03-27.md)
 - [trust-and-legitimacy-notes-2026-03-27.md](trust-and-legitimacy-notes-2026-03-27.md)
+- [WICKEDNESS_READINESS_BKI_TABLE.md](WICKEDNESS_READINESS_BKI_TABLE.md)
 - [transdisciplinary-collaboration-notes-2026-03-27.md](transdisciplinary-collaboration-notes-2026-03-27.md)
 - [sensemaking-and-collective-interpretation-notes-2026-03-27.md](sensemaking-and-collective-interpretation-notes-2026-03-27.md)
 
