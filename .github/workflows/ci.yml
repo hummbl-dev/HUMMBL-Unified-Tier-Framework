@@ -47,8 +47,8 @@ jobs:
           expected_tools = {
               "classify_problem",
               "recommend_models",
-              "assess_learning_tier",
-              "get_framework_overview",
+              "tier_assessment",
+              "framework_overview",
           }
           missing_tools = expected_tools - tool_names
           if missing_tools:
