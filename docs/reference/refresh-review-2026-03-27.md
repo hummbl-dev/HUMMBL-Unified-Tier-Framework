@@ -1,6 +1,6 @@
 # Unified Tier Framework Refresh Review
 
-Date: 2026-03-27  
+Date: 2026-03-27
 Status: draft
 
 ## Question
@@ -148,13 +148,13 @@ Useful external anchors:
 
 - Rittel & Webber (1973): foundational wicked-problem characteristics
 - Levin et al. (2012): super-wicked structure
-- O’Connor & Douguet (2024), *Futures*: high stakes, urgency, imperfect knowledge, multi-actor deliberation  
+- O’Connor & Douguet (2024), *Futures*: high stakes, urgency, imperfect knowledge, multi-actor deliberation
   <https://doi.org/10.1016/j.futures.2024.103436>
-- Termeer et al. small-wins evaluation framework: wicked-problem evaluation should avoid paralysis and overestimation; standard target-based evaluation is often misleading  
+- Termeer et al. small-wins evaluation framework: wicked-problem evaluation should avoid paralysis and overestimation; standard target-based evaluation is often misleading
   [PDF](https://openresearch.amsterdam/image/2023/11/22/a_small_wins_framework_to_overcome_the_evaluation_paradox_of_governing_wicked_pr.pdf)
-- Howlett et al. on pandemics as super-wicked problems: urgency plus weak authority and reflexive institutional adaptation  
+- Howlett et al. on pandemics as super-wicked problems: urgency plus weak authority and reflexive institutional adaptation
   <https://link.springer.com/article/10.1007/s11077-021-09442-2>
-- Gale et al. (2025), *Social Science & Medicine*: AMR as a wicked problem handled through deliberative practice, trust, and street-level diplomacy  
+- Gale et al. (2025), *Social Science & Medicine*: AMR as a wicked problem handled through deliberative practice, trust, and street-level diplomacy
   <https://doi.org/10.1016/j.socscimed.2025.118629>
 
 ## Evidence
@@ -244,6 +244,6 @@ At minimum, the public docs and the classifier should stop drifting across diffe
 
 ## Confidence
 
-High on the existence of the code/doc mismatch.  
-High on the mismatch between the classifier and the published high-tier examples.  
-Medium on the exact dimensional refresh that will best fit HUMMBL long term.  
+High on the existence of the code/doc mismatch.
+High on the mismatch between the classifier and the published high-tier examples.
+Medium on the exact dimensional refresh that will best fit HUMMBL long term.
