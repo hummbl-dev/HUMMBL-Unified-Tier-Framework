@@ -41,7 +41,7 @@ The HUMMBL Unified Tier Framework provides:
 ## 📚 Documentation
 
 **Main Document:** [HUMMBL_Unified_Tier_Framework_v1.0.md](HUMMBL_Unified_Tier_Framework_v1.0.md)
-**Day 2 Audit:** [DAY2_AUDIT.md](DAY2_AUDIT.md)  
+**Day 2 Audit:** [DAY2_AUDIT.md](DAY2_AUDIT.md)
 **Release Notes:** [RELEASE_NOTES_v1.0.0.md](RELEASE_NOTES_v1.0.0.md)
 
 ### Quick Navigation
