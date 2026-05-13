@@ -1,6 +1,6 @@
 # Empirical Evidence Plan
 
-Date: 2026-03-27  
+Date: 2026-03-27
 Status: draft
 
 ## Purpose
