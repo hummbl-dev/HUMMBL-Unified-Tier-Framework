@@ -13,7 +13,7 @@ Capture research relevant to collaboration across domains under uncertainty.
 
 Source:
 
-- https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1602005/full
+- <https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1602005/full>
 
 What it contributes:
 
@@ -24,7 +24,7 @@ What it contributes:
 
 Source:
 
-- https://council.science/publications/hlpf-2025-five-years-to-course-correct/
+- <https://council.science/publications/hlpf-2025-five-years-to-course-correct/>
 
 What it contributes:
 
@@ -34,7 +34,7 @@ What it contributes:
 
 Source:
 
-- https://theochli.github.io/assets/pdf/2025_pubjabi_knowledge_int.pdf
+- <https://theochli.github.io/assets/pdf/2025_pubjabi_knowledge_int.pdf>
 
 What it contributes:
 

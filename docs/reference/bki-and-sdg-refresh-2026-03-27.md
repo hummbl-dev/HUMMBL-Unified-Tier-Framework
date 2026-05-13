@@ -65,7 +65,7 @@ Current useful frame:
 
 Primary source:
 
-- UN 2030 Agenda: https://sdgs.un.org/2030agenda
+- UN 2030 Agenda: <https://sdgs.un.org/2030agenda>
 
 ### Diversity
 
@@ -76,7 +76,7 @@ Current useful frame:
 
 Useful SDG anchor:
 
-- Goal 10, Reduced Inequalities: https://sdgs.un.org/goals/goal10
+- Goal 10, Reduced Inequalities: <https://sdgs.un.org/goals/goal10>
 
 ### Governance
 
@@ -86,8 +86,8 @@ Current useful frame:
 
 Useful SDG anchors:
 
-- Goal 16, Peace, Justice, and Strong Institutions: https://sdgs.un.org/goals/goal16
-- Goal 17, Partnerships for the Goals: https://sdgs.un.org/goals/goal17
+- Goal 16, Peace, Justice, and Strong Institutions: <https://sdgs.un.org/goals/goal16>
+- Goal 17, Partnerships for the Goals: <https://sdgs.un.org/goals/goal17>
 
 ## 3. Why This Matters For HUMMBL
 

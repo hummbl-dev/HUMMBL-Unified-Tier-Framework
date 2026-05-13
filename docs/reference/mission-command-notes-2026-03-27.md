@@ -13,7 +13,7 @@ Capture what HUMMBL can learn from mission command and command-intent literature
 
 Source:
 
-- https://www.af.mil/News/Article-Display/Article/3529088/air-force-releases-new-memo-doctrine-on-mission-command/
+- <https://www.af.mil/News/Article-Display/Article/3529088/air-force-releases-new-memo-doctrine-on-mission-command/>
 
 What it contributes:
 
@@ -26,7 +26,7 @@ What it contributes:
 
 Source:
 
-- https://www.doctrine.af.mil/Portals/61/documents/AFDN_25-1/AFDN%2025-1%20Artificial%20Intelligence.pdf
+- <https://www.doctrine.af.mil/Portals/61/documents/AFDN_25-1/AFDN%2025-1%20Artificial%20Intelligence.pdf>
 
 What it contributes:
 
@@ -37,7 +37,7 @@ What it contributes:
 
 Source:
 
-- https://www.swcs.mil/Special-Warfare-Journal/Article/4288822/mission-command-trust-empowerment-and-the-future-force/
+- <https://www.swcs.mil/Special-Warfare-Journal/Article/4288822/mission-command-trust-empowerment-and-the-future-force/>
 
 What it contributes:
 
@@ -47,7 +47,7 @@ What it contributes:
 
 Source:
 
-- https://arxiv.org/abs/2503.08844
+- <https://arxiv.org/abs/2503.08844>
 
 What it contributes:
 

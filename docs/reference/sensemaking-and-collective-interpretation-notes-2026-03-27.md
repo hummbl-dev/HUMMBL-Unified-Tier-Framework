@@ -23,7 +23,7 @@ They are blocked by:
 
 Source:
 
-- https://arxiv.org/abs/2512.18616
+- <https://arxiv.org/abs/2512.18616>
 
 What it contributes:
 

@@ -44,7 +44,7 @@ Use in HUMMBL:
 Source:
 
 - *Futures* (2024)
-- https://doi.org/10.1016/j.futures.2024.103436
+- <https://doi.org/10.1016/j.futures.2024.103436>
 
 Why it matters:
 
@@ -63,7 +63,7 @@ Potential HUMMBL effect:
 Source:
 
 - open-access PDF
-- https://openresearch.amsterdam/image/2023/11/22/a_small_wins_framework_to_overcome_the_evaluation_paradox_of_governing_wicked_pr.pdf
+- <https://openresearch.amsterdam/image/2023/11/22/a_small_wins_framework_to_overcome_the_evaluation_paradox_of_governing_wicked_pr.pdf>
 
 Why it matters:
 
@@ -83,7 +83,7 @@ Potential HUMMBL effect:
 Source:
 
 - *Social Science & Medicine* (2025)
-- https://doi.org/10.1016/j.socscimed.2025.118629
+- <https://doi.org/10.1016/j.socscimed.2025.118629>
 
 Why it matters:
 
@@ -98,7 +98,7 @@ Potential HUMMBL effect:
 
 Source:
 
-- https://link.springer.com/article/10.1007/s11077-021-09442-2
+- <https://link.springer.com/article/10.1007/s11077-021-09442-2>
 
 Why it matters:
 

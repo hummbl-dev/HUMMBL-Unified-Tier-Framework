@@ -13,7 +13,7 @@ Capture why trust and legitimacy should be treated as design variables rather th
 
 Source:
 
-- https://www.nature.com/articles/s41598-024-71761-0
+- <https://www.nature.com/articles/s41598-024-71761-0>
 
 What it contributes:
 
@@ -24,7 +24,7 @@ What it contributes:
 
 Source:
 
-- https://www.sciencedirect.com/science/article/pii/S0740624X24000339
+- <https://www.sciencedirect.com/science/article/pii/S0740624X24000339>
 
 What it contributes:
 
@@ -35,7 +35,7 @@ What it contributes:
 
 Source:
 
-- https://www.tandfonline.com/doi/full/10.1080/13876988.2025.2543546
+- <https://www.tandfonline.com/doi/full/10.1080/13876988.2025.2543546>
 
 What it contributes:
 

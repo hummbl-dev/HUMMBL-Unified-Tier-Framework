@@ -40,7 +40,7 @@ This is directly relevant to the proposed separation between:
 
 Source:
 
-- PubMed / DOI: https://doi.org/10.1080/26408066.2024.2409092
+- PubMed / DOI: <https://doi.org/10.1080/26408066.2024.2409092>
 
 What it adds:
 
@@ -59,7 +59,7 @@ Implication for HUMMBL:
 Source:
 
 - *Journal of Public Administration Research and Theory*
-- https://doi.org/10.1093/jopart/muae009
+- <https://doi.org/10.1093/jopart/muae009>
 
 What it adds:
 
