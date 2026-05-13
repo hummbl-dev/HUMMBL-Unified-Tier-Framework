@@ -7,8 +7,15 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
       - name: Validate structure
         run: |
           echo "Checking required files..."
@@ -21,3 +28,64 @@ jobs:
           echo "All required files present"
           echo "Markdown files: $(find . -name '*.md' | wc -l)"
           echo "Total files: $(find . -type f -not -path './.git/*' | wc -l)"
+      - name: Validate MCP server
+        run: |
+          python -m py_compile mcp_server.py
+          python - <<'PY'
+          import importlib.util
+          from pathlib import Path
+
+          spec = importlib.util.spec_from_file_location("tier_mcp_server", Path("mcp_server.py"))
+          assert spec is not None and spec.loader is not None
+          module = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(module)
+
+          assert module.SERVER_NAME == "hummbl-tier-framework"
+          assert module.SERVER_VERSION == "1.0.0"
+          assert set(module.TIER_DEFINITIONS) == {1, 2, 3, 4, 5}
+          assert module._METHOD_HANDLERS["tools/list"] is not None
+          print("MCP server import and registry smoke checks passed")
+          PY
+      - name: Validate transformation workflow registry
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          skill = Path("transformation-workflow/SKILL.md").read_text(encoding="utf-8")
+          framework = Path("HUMMBL_Unified_Tier_Framework_v1.0.md").read_text(encoding="utf-8")
+          expected_transformations = {
+              "Perspective (P)",
+              "Inversion (IN)",
+              "Composition (CO)",
+              "Decomposition (DE)",
+              "Recursion (RE)",
+              "Meta-Systems (SY)",
+          }
+          missing_transformations = sorted(item for item in expected_transformations if item not in skill)
+          if missing_transformations:
+              raise SystemExit(f"Missing transformations: {missing_transformations}")
+
+          expected_base_levels = ["Base6", "Base12", "Base24", "Base36", "Base42", "BASE120"]
+          missing_base_levels = [item for item in expected_base_levels if item not in framework]
+          if missing_base_levels:
+              raise SystemExit(f"Missing Base-N registry entries: {missing_base_levels}")
+
+          print("Transformation workflow and Base-N registry smoke checks passed")
+          PY
+      - name: Validate README discoverability links
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          readme = Path("README.md").read_text(encoding="utf-8")
+          required_links = {
+              "DAY2_AUDIT.md": "[DAY2_AUDIT.md](DAY2_AUDIT.md)",
+              "RELEASE_NOTES_v1.0.0.md": "[RELEASE_NOTES_v1.0.0.md](RELEASE_NOTES_v1.0.0.md)",
+          }
+          missing = [name for name, link in required_links.items() if link not in readme]
+          if missing:
+              raise SystemExit(f"README missing discoverability links: {missing}")
+          if "authoritative source" not in readme.lower():
+              raise SystemExit("README missing canonical-repo notice")
+          print("README discoverability checks passed")
+          PY

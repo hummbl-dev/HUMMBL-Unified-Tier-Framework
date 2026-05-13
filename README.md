@@ -1,5 +1,9 @@
 # HUMMBL Unified Tier Framework v1.0
 
+> **Canonical repository notice:** This repository is the authoritative source
+> for the HUMMBL Unified Tier Framework after archival of the duplicate
+> lowercase variant.
+
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/hummbl-dev/HUMMBL-Unified-Tier-Framework/releases)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC--ND%204.0-red.svg)](LICENSE.md)
 [![Status](https://img.shields.io/badge/status-production-green.svg)](CHANGELOG.md)
@@ -37,6 +41,8 @@ The HUMMBL Unified Tier Framework provides:
 ## 📚 Documentation
 
 **Main Document:** [HUMMBL_Unified_Tier_Framework_v1.0.md](HUMMBL_Unified_Tier_Framework_v1.0.md)
+**Day 2 Audit:** [DAY2_AUDIT.md](DAY2_AUDIT.md)  
+**Release Notes:** [RELEASE_NOTES_v1.0.0.md](RELEASE_NOTES_v1.0.0.md)
 
 ### Quick Navigation
 
