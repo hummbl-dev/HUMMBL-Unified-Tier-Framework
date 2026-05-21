@@ -198,6 +198,10 @@ Email: [Contact via GitLab](https://gitlab.com/hummbl-dev-group/hummbl-dev-proje
 ### v1.0 (Current - November 2025)
 ✅ Complete unified framework with all 8 sections + appendices  
 ✅ BASE120 validation evidence integrated  
+
+## Repository Health
+
+See [REPO_HEALTH.md](DOCS/REPO_HEALTH.md) for validation and branch-protection posture.
 ✅ Quantitative wickedness scoring methodology  
 ✅ Base-N selection framework (architectural design)  
 ✅ Complete attribution and IP protection  
